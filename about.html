@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/9a3320bf6e.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+    <div class="all-content">
+      <div id="nav-bar">
+          <nav>
+            <img src="./Photos/logo.png" alt="logo" class="logo">
+            <ul id="sidemenu">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </nav>
+      </div>
+
+      <!-- about ------------>
+
+
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="./Photos/Profile Picture.jpg" alt="Luisa's image">
+            </div>
+
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.</p>
+
+                <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab(event,'skills')">Skills</p>
+                  <p class="tab-links" onclick="opentab(event,'experience')">Experience</p>
+                  <p class="tab-links" onclick="opentab(event,'education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                    <li><span>Web Development</span><br>Creating Websites and tools</li>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>App Development</span><br>Building Android/iOS apps</li>
+                  </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                  <ul>
+                    <li><span>July 2023</span><br>Freelance Developer</li>
+                    <li><span>Oct 2021 - Jun 2023 </span><br>Administrator at Pact</li>
+                    <li><span>May 2017 - Oct 2021</span><br>Project Coordinator at Novelus</li>
+                    <li><span>Jan 2015 - Dec 2016</span><br>Project Coordinator at AIESEC Colombia</li>
+                  </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                  <ul>
+                    <li><span>2023</span><br>Full-Stack Development at Le Wagon</li>
+                    <li><span>2019- 2020</span><br>PGcert Management of Social Economy Organisations at Lisbon University</li>
+                    <li><span>2010-2014</span><br>International Business at Tolima University</li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="abt-container">
+        <div class="abt-row">
+          <div class="me card">
+            <h1>Experience</h1>
+            <ul>
+              <li><span>July 2023</span><br>Freelance Developer</li>
+              <li><span>Oct 2021 - Jun 2023 </span><br>Administrator at Pact</li>
+              <li><span>May 2017 - Oct 2021</span><br>Project Coordinator at Novelus</li>
+              <li><span>Jan 2015 - Dec 2016</span><br>Project Coordinator at AIESEC Colombia</li>
+            </ul>
+          </div>
+
+          <div class="me card">
+            <h1>Education</h1>
+            <ul>
+              <li><span>2023</span><br>Full-Stack Development at Le Wagon</li>
+              <li><span>2019- 2020</span><br>PGcert Management of Social Economy Orgs at Lisbon University</li>
+              <li><span>2010-2014</span><br>International Business at Tolima University</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+<hr>
+
+<!------- Contact -------->
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+              <p><i class="fa-solid fa-square-phone"></i>07999999999</p>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/luisa-perez1/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a><i class="fa-solid fa-envelope"></i></a>
+              </div>
+              <a href="Photos/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright © Luisa Perez</p>
+        </div>
+      </div>
+      </div>
+
+<script src="./index.js"></script>
+
+</body>
+
+</html>

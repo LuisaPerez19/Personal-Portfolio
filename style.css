@@ -4,6 +4,7 @@
 @import url("./css-components/footer.css");
 @import url("./css-components/form.css");
 @import url("./css-components/portfolioCards.css");
+@import url("./css-components/about.css");
 
 *{
   margin: 0;
@@ -17,7 +18,7 @@ html{
 }
 
 body{
-  background: #080808;
+  background: #141010;
   color:#fff;
 }
 

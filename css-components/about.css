@@ -1,0 +1,32 @@
+.abt-container{
+  margin-top: -20px;
+  margin-left: 170px;
+  margin-bottom: 20px;
+  color: #ababab;
+}
+
+.abt-row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.me{
+  flex-basis: 50%;
+}
+
+.me ul li span {
+  color: #F15157;
+  font-size: 14px;
+}
+
+.me ul li{
+  list-style: none;
+  margin: 10px 0;
+}
+
+.card{
+  border-color: 1px solid #F15157;
+
+}
