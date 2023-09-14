@@ -20,9 +20,23 @@
   background: #F15157;
 }
 
-form btn2{
-  padding: 14px 60px;
-  font-size: 18px;
-  margin-top: 20px;
+
+.form-button{
+  width: 100%;
+  display: block;
+  /* margin-top: 10px; */
+  margin: 20px auto;
+  background: #F15157;
+  border: 1px solid #F15157;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  transition: background 0.5s;
   cursor: pointer;
+}
+
+.form-button:hover{
+  background: #F15157;
 }
