@@ -3,10 +3,12 @@ nav {
   align-items: center;
   justify-content:space-between;
   flex-wrap: wrap;
+  margin-right: 50px;
 }
 
 .logo {
-  width: 40px;
+  width: 100px;
+  margin-left: 10px;
 }
 
 nav ul li {
