@@ -4,6 +4,7 @@
   background-image: url("../Photos/computer.png");
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .header-text{
