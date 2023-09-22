@@ -1,6 +1,74 @@
 /* -------------portfolio cards ------ */
 
+.portfolio{
+  background-color: #141010;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 5.2rem;
+  margin-top: 2.2rem;
+}
 
+.Portfolio-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  align-items: center;
+  gap: 2.3rem;
+  margin-top: 4.2rem;
+}
+
+.portfolio-row img{
+  height: auto;
+  width: 100%;
+  border-radius: 28px;
+  margin-bottom: 1.4rem;
+}
+
+.portfolio-row{
+  background: #2d343f ;
+  border-radius: 28px;
+  border: 1px solid transparent;
+  box-shadow: 0 0 5px #F15157;
+  padding: 20px;
+  transition: all .50s ease ;
+}
+
+.main-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-row h5{
+  font-size: 20px;
+  font-weight: 600;
+  color: lightgray;
+}
+
+.portfolio-row i{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 27px;
+  border-radius: 50%;
+  color: white;
+  background: #F15157;
+}
+
+.portfolio-row h4{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.portfolio-row:hover{
+  border: 1px solid #2d343f;
+  transform: translateY(-5px) scale(1.03);
+  cursor: pointer;
+}
 
 /* #portfolio{
   padding: 50px 0;
