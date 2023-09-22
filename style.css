@@ -113,6 +113,10 @@ nav .fa-solid {
   display: none;
 }
 
+body.hide-scrolling{
+  overflow-y: hidden;
+}
+
 @media only screen and (max-width: 600px ){
   #header{
     background-image: url("Photos/computer\ phone\ background.png");

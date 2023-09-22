@@ -23,6 +23,8 @@ function closemenu() {
   sidemenu.style.right = "-200px";
 }
 
+// contact me js-----------------------------------------------------
+
 const scriptURL =
   "https://script.google.com/macros/s/AKfycbwSkLaPX06tLdL4kgVEI5vtvDnMa70Zggg-PIcO535iFGO3ZXMiDTqIDElDleMhcvD04A/exec";
 const form = document.forms["submit-to-google-sheet"];

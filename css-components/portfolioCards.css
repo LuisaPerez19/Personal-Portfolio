@@ -6,6 +6,11 @@
   margin-right: 100px;
   margin-bottom: 5.2rem;
   margin-top: 2.2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.portfolio.fade-out{
+  opacity: 0;
 }
 
 .Portfolio-content{
@@ -70,71 +75,127 @@
   cursor: pointer;
 }
 
-/* #portfolio{
-  padding: 50px 0;
-}
+/*
+<!-- portfolio Item details popup start --> */
 
-.work-list{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 40px;
-  margin-top: 50px;
-}
-
-.work{
-  border-radius: 10px;
-  position: relative;
-  overflow: hidden;
-}
-
-.work img {
-  width: 100%;
-  border-radius: 10px;
-  display: block;
-  transition: transform 0.5s;
-}
-
-.layer{
-  width: 100%;
-  height: 0;
-  background: linear-gradient(rgba(0,0,0,0.6), #F15157);
-  border-radius: 10px;
-  position: absolute;
+.portfolio-popup{
+  position: fixed;
   left: 0;
-  bottom: 0;
-  overflow: hidden;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 200;
+  visibility: hidden;
+}
+
+.portfolio-popup.open{
+  visibility: visible;
+  overflow-y: auto;
+}
+
+.pp-inner{
+  min-height: 100vh;
+  padding: 40px 15px;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  padding: 0 40px;
-  text-align: center;
-  font-size: 14px;
-  transition: height 0.5s;
 }
 
-.layer h3{
-  font-weight: 500;
-  margin-bottom: 20px;
+.pp-content{
+  background-color: #2d343f;
+  padding: 30px;
+  border-radius: 30px;
+  max-width: 960px;
+  width: 100%;
+  border: 1px solid #2d343f;
+  backdrop-filter: blur(5px);
 }
 
-.layer a{
-  margin-top: 20px;
-  color: #F15157;
+.hidden{
+  display: none !important;
+}
+
+.pp-btn{
+  display: block;
+  width: fit-content;
+  border: 1px solid #F15157;
+  padding: 14px 50px;
+  border-radius: 30px;
   text-decoration: none;
-  font-size: 18px;
-  line-height: 60px;
-  background: #fff;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  text-align: center;
+  background: #2d343f;
+  color: white;
+  transition: background 0.5s;
 }
 
-.work:hover img {
-  transform: scale(1.1);
+.pp-btn:hover{
+  background: #F15157;
 }
 
-.work:hover .layer {
-  height: 100%;
-} */
+.pp-header{
+  position: relative;
+}
+
+.pp-header .pp-btn{
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: -40px;
+  top: -40px;
+}
+
+.pp-thumbnail img{
+  border-radius: 10px;
+}
+
+.pp-header h3{
+  font-size: 25px;
+  text-transform: capitalize;
+  color: #ababab;
+  margin: 20px 0 15px ;
+}
+
+.pp-body .description{
+  margin-bottom: 20px;
+  color: #ababab;
+}
+
+.general-info ul{
+  list-style: none;
+}
+
+.pp-body .general-info li {
+  margin-bottom: 10px;
+  color: #ababab;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.pp-body .general-info li span{
+  font-weight: 300;
+  color: #ababab;
+}
+
+.pp-body .general-info li a{
+  text-transform: lowercase;
+  color: #F15157;
+}
+
+.view-project-btn{
+  display: block;
+  width: fit-content;
+  border: 1px solid #F15157;
+  padding: 14px 50px;
+  border-radius: 30px;
+  text-decoration: none;
+  background: #2d343f;
+  color: white;
+  transition: background 0.5s;
+}
+
+.view-project-btn:hover{
+  background: #F15157;
+}
