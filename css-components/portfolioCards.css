@@ -195,7 +195,7 @@
 
 .pp-body .general-info span{
   font-weight: 300;
-  color: white;
+  color: lightgray;
 }
 
 .pp-body .general-info li a{
@@ -221,4 +221,5 @@
 
 .description p{
   text-align: start;
+  color: lightgray;
 }
