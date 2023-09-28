@@ -218,3 +218,7 @@
 .view-project-btn:hover{
   background: #F15157;
 }
+
+.description p{
+  text-align: start;
+}
