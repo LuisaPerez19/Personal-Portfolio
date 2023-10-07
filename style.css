@@ -117,13 +117,13 @@ body.hide-scrolling{
   overflow-y: hidden;
 }
 
-@media only screen and (max-width: 350px ){
-  #header{
+@media only screen and (max-width: 600px ){
+  /* #header{
     max-width: 100%;
     background-position: center;
-  }
+  } */
   .header-text{
-      margin-top: 100%;
+      margin-top: 60%;
       font-size: 12px;
     }
     .header-text h1{
