@@ -117,9 +117,10 @@ body.hide-scrolling{
   overflow-y: hidden;
 }
 
-@media only screen and (max-width: 300px ){
+@media only screen and (max-width: 350px ){
   #header{
-    background-image: url("Photos/computer\ phone\ background.png");
+    max-width: 100%;
+    background-position: center;
   }
   .header-text{
       margin-top: 100%;
