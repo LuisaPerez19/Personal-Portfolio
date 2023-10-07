@@ -182,4 +182,8 @@ body.hide-scrolling{
   .copyright{
     font-size: 14px;
   }
+
+  .center-text h2{
+    margin-left: 20%;
+  }
 }
