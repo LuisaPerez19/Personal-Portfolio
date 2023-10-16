@@ -4,6 +4,10 @@
   font-size: 25px;
 }
 
+.contact-left h1 {
+  font-size: 3em;
+}
+
 .social-icons{
   margin-top: 30px;
   /* margin-left: 80px; */
@@ -66,17 +70,19 @@ form input, form textarea{
   margin-top: 50px;
   display: flex;
   gap: 20px;
-  width: 100%;
+  max-width: 100%;
 }
 
 #contact .row .contact-left{
   color: #ababab;
   flex-basis: 35%;
-  min-width: 35%;
+  /* min-width: 35%; */
+  max-width: 35%;
   /* background-color: black; */
   box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
   border-radius: 5px;
   padding: 30px;
+  border: solid 1px red;
 }
 
 #contact .row .contact-left .icon-box{
@@ -116,4 +122,17 @@ background-color:  #F15157 ;
 #contact{
   margin-bottom: 50px;
   margin-top: -50px;
+  max-width: 90%;
+  border: solid 1px #F15157;
+}
+
+.map{
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 600px ){
+
+  #contact .row .contact-left{
+      max-width: 100%;
+    }
 }
