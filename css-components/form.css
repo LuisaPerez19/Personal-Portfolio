@@ -82,7 +82,7 @@ form input, form textarea{
   box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
   border-radius: 5px;
   padding: 30px;
-  border: solid 1px red;
+  /* border: solid 1px red; */
 }
 
 #contact .row .contact-left .icon-box{
@@ -123,7 +123,7 @@ background-color:  #F15157 ;
   margin-bottom: 50px;
   margin-top: -50px;
   max-width: 90%;
-  border: solid 1px #F15157;
+  /* border: solid 1px #F15157; */
 }
 
 .map{
