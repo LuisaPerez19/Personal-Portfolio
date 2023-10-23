@@ -28,6 +28,8 @@ body{
 
 .container {
   padding: 10px 10%;
+  margin-bottom: 5%;
+  /* border: 1px solid yellow; */
 }
 
 /* <!--------------- about -------------------> */
@@ -44,11 +46,6 @@ body{
 
 .about-col-1{
   flex-basis:35%;
-}
-
-.about-col-1 img{
-  max-width: 90%;
-  border-radius: 15px;
 }
 
 .about-col-2 {
