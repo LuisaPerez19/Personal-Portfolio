@@ -1,26 +1,43 @@
 #header{
   max-width: 100%;
   height: 100vh;
-  background-image: url("../Photos/Computer.jpg");
+  background-image: url("../Photos/computer.png");
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
+.banner-container {
+  display: flex;
+  height: 100vh;
+}
+
+
 .header-text{
-  margin-top: 20%;
+  margin-top: 8%;
   font-size: 30px;
   margin-left: 40px;
   padding-top: 130px;
 }
 
 .header-text h1 {
-  font-size:60px;
-  margin-top: 20px;
+  font-size:5vw;
 }
 
+.header-text h3 {
+  font-size:2vw;
+  margin-top: 1%;
+}
 .header-text h1 span {
   color:#F15157;
+}
+
+.header-text h3 span {
+  color:#F15157;
+}
+
+.header-text a{
+  font-size: 1vw;
 }
 
 .header-text .text-animated {
