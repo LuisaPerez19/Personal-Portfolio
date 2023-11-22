@@ -120,11 +120,17 @@ body.hide-scrolling{
     background-position: center;
   } */
   .header-text{
-      margin-top: 10%;
+      margin-top: 50%;
     }
     .header-text a{
-      font-size: 2vw;
+      font-size: 3vw;
   }
+  .header-text h1{
+    font-size: 7vw;
+}
+.header-text h3{
+  font-size: 4vw;
+}
   nav .fa-solid {
     display: block;
     font-size: 20px;
@@ -185,7 +191,7 @@ body.hide-scrolling{
   #header{
     max-width: 100%;
     height: 100vh;
-    background-image: url("../Photos/computer.png");
+    background-image: url("Photos/computer-mobile.png");
     background-size: cover;
     background-position: center;
     position: relative;
