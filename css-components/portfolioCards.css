@@ -2,10 +2,7 @@
 
 .portfolio{
   background-color: #141010;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 5.2rem;
-  margin-top: 2.2rem;
+  margin: 2.2rem 2rem 5.2rem 2rem;
 }
 
 .all-content{
@@ -18,9 +15,9 @@
 
 .Portfolio-content{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   align-items: center;
-  gap: 2.3rem;
+  grid-gap: 2.3rem;
   margin-top: 4.2rem;
 }
 
@@ -82,8 +79,8 @@
   cursor: pointer;
 }
 
-.center-text h2{
-  margin-left: 600px;
+.center-text {
+  text-align: center;
 }
 
 /*
@@ -225,10 +222,10 @@
   color: lightgray;
 }
 
-@media only screen and (max-width: 600px ){
+@media only screen and (max-width: 767px ){
 
   .Portfolio-content{
-      margin-left: -20%;
-    }
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
 
 }

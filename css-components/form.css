@@ -4,10 +4,6 @@
   font-size: 25px;
 }
 
-.contact-left h1 {
-  font-size: 3em;
-}
-
 .social-icons{
   margin-top: 30px;
   /* margin-left: 80px; */
@@ -31,11 +27,7 @@
 .contact-right{
   flex-basis: 60%;
 }
-.contact-right form{
-  width: 90%;
-  margin-top: 50px;
-  margin-left: 40px;
-}
+
 
 /* #contact .row .contact-right{
   border: 2px solid #F15157;
@@ -75,7 +67,7 @@ form input, form textarea{
 
 #contact .row .contact-left{
   color: #ababab;
-  flex-basis: 35%;
+  /* flex-basis: 35%; */
   /* min-width: 35%; */
   max-width: 35%;
   /* background-color: black; */
@@ -122,7 +114,6 @@ background-color:  #F15157 ;
 #contact{
   margin-bottom: 50px;
   margin-top: -50px;
-  max-width: 90%;
   /* border: solid 1px #F15157; */
 }
 
@@ -130,9 +121,13 @@ background-color:  #F15157 ;
   max-width: 100%;
 }
 
-@media only screen and (max-width: 600px ){
+@media only screen and (max-width: 767px ){
 
   #contact .row .contact-left{
       max-width: 100%;
     }
+
+  #contact .row .contact-left{
+    padding: 0;
+  }
 }
