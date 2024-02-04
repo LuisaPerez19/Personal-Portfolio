@@ -131,9 +131,9 @@
   background-position: -15rem 0;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 1366px){
   .animated-title{
-    margin-left: 60px;
+    margin-left: 200px;
   }
   .text-top{
      margin-top: 81%;
@@ -157,9 +157,9 @@
   }
 }
 
-@media only screen and (max-width: 1366px){
+@media only screen and (max-width: 767px){
   .animated-title{
-    margin-left: 200px;
+    margin-left: 60px;
   }
   .text-top{
      margin-top: 81%;
