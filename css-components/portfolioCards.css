@@ -16,7 +16,7 @@
 .Portfolio-content{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  align-items: center;
+  align-items: stretch;
   grid-gap: 2.3rem;
   margin-top: 4.2rem;
 }
